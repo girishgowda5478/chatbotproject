@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello! How can I help you?", "Hi there!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye"],
+      "responses": ["Goodbye!", "Take care!"]
+    },
+    {
+      "tag": "security",
+      "patterns": [
+        "What is SQL injection?",
+        "Explain XSS",
+        "What is cybersecurity?"
+      ],
+      "responses": [
+        "SQL Injection is a code injection attack targeting databases."
+      ]
+    }
+  ]
+}
